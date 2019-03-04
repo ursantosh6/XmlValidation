@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="https://www.test.xmlvalidation/Currency" 
+xmlns:cur="https://www.test.xmlvalidation/Currency" elementFormDefault="qualified">
+
+	<element name="currencyRequest" type="cur:currencyRequest"></element>
+	
+
+	<complexType name="currencyRequest">
+		<sequence>
+			<element name="code" type="cur:currencyCode"></element>
+		</sequence>
+	</complexType>
+
+	
+	<simpleType name="currencyCode">
+		<restriction base="string">
+			<pattern value="[A-Za-z]{3}|"></pattern>
+		</restriction>
+	</simpleType>	
+	
+</schema>

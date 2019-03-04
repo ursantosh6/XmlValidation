@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cur:currencyRequest xmlns:cur="https://www.test.xmlvalidation/Currency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.test.xmlvalidation/Currency Currency.xsd ">
+  <cur:code>us</cur:code>
+</cur:currencyRequest>
